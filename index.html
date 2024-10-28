@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
     <!-- Navbar starts here -->
@@ -52,7 +53,7 @@
               <a class="nav-link" aria-current="page" href="#">Works</a>
             </li>
           </ul>
-          <div>
+          <div class="navbar_button">
             <button>
               Hire Me
               <i class="fa-regular fa-envelope"></i>
@@ -97,25 +98,25 @@
     <section id="counter">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-6 col-md-3">
                     <div class="counter_item text-center">
                         <h3>100+</h3>
                         <p>projects</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-6 col-md-3">
                     <div class="counter_item text-center">
                         <h3>24</h3>
                         <p>winning award</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-6 col-md-3 mt-5 mt-md-0">
                     <div class="counter_item text-center">
                         <h3>70+</h3>
                         <p>happy clients</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-6 col-md-3 mt-5 mt-md-0">
                     <div class="counter_item text-center">
                         <h3>10</h3>
                         <p>years experience</p>
@@ -181,7 +182,7 @@
               </div>
             </div>
             <div class="col-lg-5">
-              <div class="about_right">
+              <div class="about_right d-none d-lg-block">
                 <img src="assets/about_right_image.png" alt="About Image">
               </div>
             </div>
@@ -194,22 +195,22 @@
       <section id="brand">
         <div class="container">
           <div class="row">
-            <div class="col-lg-3">
+            <div class="col-6 col-md-3">
               <div class="brand_item text-center">
                 <img src="assets/brand_img_1.png" alt="Brand Image 1">
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-6 col-md-3">
               <div class="brand_item text-center">
                 <img src="assets/brand_img_2.png" alt="Brand Image 2">
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-6 col-md-3 mt-4 mt-md-0">
               <div class="brand_item text-center">
                 <img src="assets/brand_img_3.png" alt="Brand Image 3">
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-6 col-md-3 mt-4 mt-md-0">
               <div class="brand_item text-center">
                 <img src="assets/brand_img_4.png" alt="Brand Image 4">
               </div>
@@ -223,7 +224,7 @@
      <section id="portfolio">
       <div class="container">
         <div class="row justify-content-between">
-          <div class="col-lg-4">
+          <div class="col-lg-6 col-xxl-4">
             <div class="portfolio_left">
               <h6>Portfolio</h6>
               <h4>Selected Works.</h4>
@@ -237,7 +238,7 @@
         </div>
         <div class="portfolio_items_parent">
           <div class="row row-gap-4">
-            <div class="col-lg-6">
+            <div class="col-md-6">
               <div class="portfolio_item">
                 <div class="portfolio_item_image">
                   <img src="assets/work_1.png" alt="Portfolio 1">
@@ -248,7 +249,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-md-6">
               <div class="portfolio_item">
                 <div class="portfolio_item_image">
                   <img src="assets/work_2.png" alt="Portfolio 2">
@@ -259,7 +260,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-md-6">
               <div class="portfolio_item">
                 <div class="portfolio_item_image">
                   <img src="assets/work_3.png" alt="Portfolio 3">
@@ -270,7 +271,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-md-6">
               <div class="portfolio_item">
                 <div class="portfolio_item_image">
                   <img src="assets/work_4.png" alt="Portfolio 4">
@@ -331,7 +332,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 mt-4 mt-lg-0">
               <div class="testimonial_item">
                 <div class="d-flex column-gap-1 ratings">
                   <i class="fa-regular fa-star"></i>
@@ -389,48 +390,62 @@
           <div class="row">
             <div class="col-lg-10  footer_line mx-auto">
               <div class="row justify-content-between">
-                <div class="col-lg-4">
+                <div class="col-md-6 col-xl-4">
                   <div class="footer_left">
                     <img src="assets/footer_logo.svg" alt="Footer Logo">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae blandit lectus. Praesent at hendrerit.</p>
                   </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-md-6 col-lg-4 col-xl-3">
                   <div class="contact_info">
-                    <ul class="">
+                    <ul>
                       <li><a href="#">
                         <i class="fa-regular fa-envelope"></i>
-                        inquiry@portostar.com
+                        <span>inquiry@portostar.com</span>
                       </a></li>
                       <li><a href="#">
                         <i class="fa-solid fa-phone"></i>
-                        (001) 1231 3435
+                        <span>(001) 1231 3435</span>
                       </a></li>
                     </ul>
+                    <ul class="social_media">
+                      <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                      <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                      <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                      <li><a href=""><i class="fa-brands fa-dribbble"></i></a></li>
+                  </ul>
                   </div>
-                    <div class="footer_icon d-flex column-gap-2">
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-linkedin"></i>
-                        <i class="fa-brands fa-dribbble"></i>
-                    </div>
+                    
                 </div>
               </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-10">
-                  
-                </div>
-              </div>
-            </div>
-            
 
-            
+            <div class="devider"></div>
+            <div class="copyright">
+              <div class="row justify-content-between align-items-center">
+                  <div class="col-md-6 col-lg-5">
+                    <div class="footer_menu">
+                      <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Works</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <div class="copyright_text text-center text-md-end">
+                        <span> &copy; All Right Reserved</span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
      </section>
     <!-- Footer ends here -->
+
+
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

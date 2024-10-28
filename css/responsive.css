@@ -1,0 +1,496 @@
+@media (max-width: 575px) {
+    .navbar-toggler {
+        border: 0
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar_button {
+        display: flex;
+        justify-content: center;
+    }
+    .banner_left {
+        text-align: center;
+    }
+    .banner_left h1 {
+        font-size: 44px;
+        line-height: 64px;
+    }
+    .banner_button {
+        flex-direction: column;
+    }
+    .banner_button button{
+        margin-bottom: 25px;
+    }
+    .banner_right{
+        margin-top: 46px;
+    }#service {
+        padding-top: 100px;
+        padding-bottom: 64px;
+    }
+    .service_header h4 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .service_item p {
+        padding: 0 30px;
+    }
+    .service_item {
+        margin-top: 30px;
+    }
+    #about {
+        padding: 80px 0;
+        text-align: center;
+    }
+    .about_left h2 {
+        font-size: 44px;
+        line-height: 64px;
+        padding-right: 0;
+        padding: 0 15px;  
+    }
+    .about_left p {
+        padding-right: 00px;
+    }
+    .about_left button {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    #brand{
+        margin-top: 66px;
+    }
+    #portfolio {
+        padding-top: 100px;
+    }
+    .portfolio_left{
+        text-align: center;
+    }
+    .portfolio_left h6::after{
+        z-index: -1;
+        content: url("../assets/polygon\ 1.png");
+        position: absolute;
+        top: -41px;
+        left: 5%;
+        z-index: -1;
+    }
+    .portfolio_right p {
+        padding-right: 0px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .portfolio_items_parent {
+        margin-top: 30px;
+    }
+    .portfolio_item_content h5 {
+        font-size: 16px;
+    }
+    .portfolio_item_content {
+        padding: 21px 30px;
+    }
+    .testimonial_header h4 {
+        font-size: 34px;
+        line-height: 40px;
+        padding: 0 20px;
+    }
+    .testimonial_header p {
+        padding: 0px;
+    }
+    .testimonial_item p {
+        padding-right: 10px;
+    }
+    #cta {
+        padding-top: 64px;
+    }
+    .cta_content h4 {
+        font-size: 45px;
+        line-height: 52px;
+    }
+    .footer_left{
+        text-align: center;
+    }
+    .contact_info{
+        margin-top: 50px;
+    }
+    .contact_info ul li {
+        justify-content: center;
+    }
+    .contact_info ul li {
+        justify-content: center;
+    }
+    .contact_info .social_media{
+        justify-content: center;
+    }
+    .footer_menu ul {
+        column-gap: 17px;
+        justify-content: center;
+    }
+    .footer_menu ul li a{
+        font-size: 13px;
+    }
+}
+/* ===================== */
+@media (min-width: 576px) and (max-width: 767.99px) {
+    .navbar-toggler {
+        border: 0
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar_button {
+        display: flex;
+        justify-content: center;
+    }
+    .banner_left {
+        text-align: center;
+    }
+    .banner_left h1 {
+        font-size: 44px;
+        line-height: 64px;
+    }
+    .banner_button {
+        flex-direction: column;
+    }
+    .banner_button button{
+        margin-bottom: 25px;
+    }
+    .banner_right{
+        margin-top: 46px;
+    }#service {
+        padding-top: 100px;
+        padding-bottom: 64px;
+    }
+    .service_header h4 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .service_item p {
+        padding: 0 30px;
+    }
+    .service_item {
+        margin-top: 30px;
+    }
+    #about {
+        padding: 80px 0;
+        text-align: center;
+    }
+    .about_left h2 {
+        font-size: 44px;
+        line-height: 64px;
+        padding-right: 0;
+        padding: 0 15px;  
+    }
+    .about_left p {
+        padding-right: 00px;
+    }
+    .about_left button {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    #brand{
+        margin-top: 66px;
+    }
+    #portfolio {
+        padding-top: 100px;
+    }
+    .portfolio_left{
+        text-align: center;
+    }
+    .portfolio_left h6::after{
+        z-index: -1;
+        content: url("../assets/polygon\ 1.png");
+        position: absolute;
+        top: -41px;
+        left: 5%;
+        z-index: -1;
+    }
+    .portfolio_right p {
+        padding-right: 0px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .portfolio_items_parent {
+        margin-top: 30px;
+    }
+    .portfolio_item_content h5 {
+        font-size: 16px;
+    }
+    .portfolio_item_content {
+        padding: 21px 30px;
+    }
+    .testimonial_header h4 {
+        font-size: 34px;
+        line-height: 40px;
+        padding: 0 20px;
+    }
+    .testimonial_header p {
+        padding: 0px;
+    }
+    .testimonial_item p {
+        padding-right: 10px;
+    }
+    #cta {
+        padding-top: 64px;
+    }
+    .cta_content h4 {
+        font-size: 45px;
+        line-height: 52px;
+    }
+    .footer_left{
+        text-align: center;
+    }
+    .contact_info{
+        margin-top: 50px;
+    }
+    .contact_info ul li {
+        justify-content: center;
+    }
+    .contact_info ul li {
+        justify-content: center;
+    }
+    .contact_info .social_media{
+        justify-content: center;
+    }
+    .footer_menu ul {
+        column-gap: 17px;
+        justify-content: center;
+    }
+    .footer_menu ul li a{
+        font-size: 13px;
+    }
+}
+/* ===================== */
+@media (min-width: 768px) and (max-width: 991.99px) {
+    .navbar-toggler {
+        border: 0
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar_button {
+        display: flex;
+        justify-content: center;
+    }
+    .banner_left {
+        text-align: center;
+    }
+    .banner_left h1 {
+        font-size: 44px;
+        line-height: 64px;
+    }
+    .banner_button {
+        /* flex-direction: column; */
+        justify-content: center;
+    }
+    
+    .banner_right{
+        margin-top: 46px;
+    }#service {
+        padding-top: 100px;
+        padding-bottom: 64px;
+    }
+    .service_header h4 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .service_item p {
+        padding: 0 30px;
+    }
+    .service_item {
+        margin-top: 30px;
+    }
+    #about {
+        padding: 80px 0;
+        text-align: center;
+    }
+    .about_left h2 {
+        font-size: 44px;
+        line-height: 64px;
+        padding-right: 0;
+        padding: 0 15px;  
+    }
+    .about_left p {
+        padding-right: 00px;
+    }
+    .about_left button {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    #brand{
+        margin-top: 66px;
+    }
+    #portfolio {
+        padding-top: 100px;
+    }
+    .portfolio_left{
+        text-align: center;
+    }
+    .portfolio_left h6::after{
+        z-index: -1;
+        content: url("../assets/polygon\ 1.png");
+        position: absolute;
+        top: -41px;
+        left: 5%;
+        z-index: -1;
+    }
+    .portfolio_right p {
+        padding-right: 0px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .portfolio_items_parent {
+        margin-top: 30px;
+    }
+    .portfolio_item_content h5 {
+        font-size: 15px;
+    }
+    .portfolio_item_content {
+        padding: 21px 30px;
+    }
+    .testimonial_header h4 {
+        font-size: 34px;
+        line-height: 40px;
+        padding: 0 20px;
+    }
+    .testimonial_header p {
+        padding: 0px;
+    }
+    .testimonial_item p {
+        padding-right: 10px;
+    }
+    #cta {
+        padding-top: 64px;
+    }
+    .cta_content h4 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    
+    .footer_menu ul {
+        column-gap: 17px;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    .footer_menu ul li a{
+        font-size: 13px;
+    }
+}
+/* ===================== */
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    
+    .banner_left h1 {
+        font-size: 47px;
+        line-height: 63px;
+    }
+    .banner_button {
+        justify-content: center;
+    }
+    
+    .banner_right{
+        margin-top: 46px;
+    }
+    #service {
+        padding-top: 100px;
+        padding-bottom: 64px;
+    }
+    .service_header h4 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .service_item p {
+        padding: 0 30px;
+    }
+    .service_item {
+        margin-top: 30px;
+    }
+    #about {
+        padding-top: 80px;
+        text-align: center;
+    }
+    .about_left h2 {
+        font-size: 36px;
+        line-height: 48px;
+        padding-right: 0;
+        padding: 0 15px;  
+    }
+    .about_left p {
+        padding-right: 00px;
+    }
+    .about_left button {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    #brand{
+        margin-top: 66px;
+    }
+    #portfolio {
+        padding-top: 100px;
+    }
+   
+    .portfolio_left h6::after{
+        z-index: -1;
+        content: url("../assets/polygon\ 1.png");
+        position: absolute;
+        top: -41px;
+        left: 5%;
+        z-index: -1;
+    }
+    .portfolio_right p {
+        padding-right: 0px;
+        margin-top: 10px;
+    }
+    .portfolio_items_parent {
+        margin-top: 30px;
+    }
+    .portfolio_item_content h5 {
+        font-size: 15px;
+    }
+    .portfolio_item_content {
+        padding: 21px 30px;
+    }
+    .testimonial_bg {
+        padding: 115px 0;
+    }
+    .testimonial_header h4 {
+        font-size: 34px;
+        line-height: 40px;
+        padding: 0 20px;
+    }
+    .testimonial_header p {
+        padding: 0px;
+    }
+    .testimonial_item p {
+        padding-right: 10px;
+    }
+    #cta {
+        padding-top: 64px;
+    }
+    .cta_content h4 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    
+    .footer_menu ul {
+        column-gap: 17px;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    .footer_menu ul li a{
+        font-size: 13px;
+    }
+}
+/* ===================== */
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+    .about_left h2 {
+        font-size: 36px;
+        line-height: 48px;
+        padding-right: 0;
+        padding: 0;  
+    }
+    .footer_menu ul {
+        column-gap: 27px;
+    }
+    .cta_content h4 {
+        font-size: 40px;
+        line-height: 56px;
+    }
+    
+}
